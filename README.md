@@ -1,8 +1,7 @@
 # CineBites
 A seat-side concessions ordering system for pop-up cinemas and entertainment venues.
 
-*We have such snacks to show you.*
-*"It is not hands that summon us, but hunger."*
+*"We have such snacks to show you."*
 
 ## Project Structure
 ```
@@ -49,3 +48,5 @@ The staff-facing application for managing operations and orders:
 - **Inventory Control**: Stock tracking, low-stock alerts, item management
 - **Analytics Dashboard**: Sales metrics, popular items, seat distribution
 - **Staff Tools**: Order status updates, delivery tracking, customer communication
+
+*"It is not hands that summon us, but hunger."*
