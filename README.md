@@ -3,6 +3,13 @@ A seat-side concessions ordering system for pop-up cinemas and entertainment ven
 
 *"We have such snacks to show you."*
 
+**Tech Stack:**
+- **Monorepo**: Turborepo 2.x with pnpm workspaces for dependency management
+- **Backend**: Laravel 12 (PHP 8.3+) with PostgreSQL database and Sanctum authentication
+- **Frontend**: React 19 with TypeScript, built using Vite with experimental rolldown bundler
+- **Development**: Hot module replacement across all applications, shared configuration
+- **Deployment**: Targeting Linode/DigitalOcean VPS infrastructure with potential Kubernetes migration
+
 ## Project Structure
 ```
 cinebites/
