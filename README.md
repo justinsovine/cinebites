@@ -8,14 +8,16 @@ A seat-side concessions ordering system for pop-up cinemas and entertainment ven
 cinebites/
 ├── apps/
 │   ├── api/               # Laravel API backend
-│   └── customer/          # React SPA customer frontend
-│   └── admin/             # React SPA admin dashboard
+│   ├── frontend/          # React customer ordering app
+│   └── admin/             # React staff management dashboard
 ├── packages/              # Shared packages
 │   ├── ui/                # Shared UI components (future)
 │   └── config/            # Shared configs (ESLint, Tailwind, etc.)
-├── package.json           # Root package.json (Turborepo workspace)
-├── turbo.json             # Turborepo build pipeline config
-├── .env.example           # Root environment variables
+├── package.json           # Turborepo workspace configuration
+├── turbo.json             # Build pipeline configuration
+├── pnpm-workspace.yaml    # pnpm workspace definition
+├── pnpm-lock.yaml         # Dependency lockfile
+├── .env.example           # Environment variables template
 └── README.md              # Project documentation
 ```
 
