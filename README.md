@@ -6,9 +6,16 @@ A seat-side concessions ordering system for pop-up cinemas and entertainment ven
 ## Project Structure
 ```
 cinebites/
-├── api/                    # Laravel API backend
-├── frontend/               # React SPA frontend
-└── docker-compose.yml      # Development environment
+├── apps/
+│   ├── api/               # Laravel API backend
+│   └── frontend/          # React SPA frontend
+├── packages/              # Shared packages
+│   ├── ui/               # Shared UI components (future)
+│   └── config/           # Shared configs (ESLint, Tailwind, etc.)
+├── package.json          # Root package.json (Turborepo workspace)
+├── turbo.json           # Turborepo build pipeline config
+├── .env.example         # Root environment variables
+└── README.md           # Project documentation
 ```
 
 ## API (Laravel)
