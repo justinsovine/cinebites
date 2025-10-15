@@ -10,6 +10,9 @@
     "type-check": "turbo run type-check"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/node": "^24.7.2",
+    "tailwindcss": "^4.1.14",
     "turbo": "^2.5.8"
   },
   "workspaces": [
@@ -21,7 +24,8 @@
       "vite": "npm:rolldown-vite@7.1.14"
     },
     "onlyBuiltDependencies": [
-      "@tailwindcss/oxide"
+      "@tailwindcss/oxide",
+      "esbuild"
     ]
   }
 }
